@@ -1,0 +1,13 @@
+TASK,DURATION,DEPENDENCIES
+a,3,NONE
+b,2,a
+c,1,b
+d,2,c
+e,2,d
+f,3,b
+g,24,a
+h,4,g
+i,6,h
+j,1,h
+k,2,e f
+l,7,i j k
